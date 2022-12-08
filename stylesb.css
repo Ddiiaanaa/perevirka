@@ -63,8 +63,10 @@ article {
 .y {
     text-transform: uppercase;
 }
-section {
+div {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 @media (min-width: 992px) {
@@ -79,6 +81,6 @@ section {
 }
 @media (max-width: 767px) {
     div {
-        flex: wrap;
+        flex-direction: column;
     }
 }
