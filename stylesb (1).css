@@ -1,0 +1,64 @@
+.p:link, .p:visited {
+    text-decoration: none;
+    background-color: blue;
+    border: 2px solid yellow;
+    color: white;
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.p:hover {
+    background-color:magenta;
+    color:aqua;
+}
+.p:active {
+    background-color:yellow;
+    color:darkblue;
+}
+p1 {
+    background-color: lightblue;
+    color: hotpink;
+}
+p2 {
+    background-color: skyblue;
+    color: palevioletred;
+}
+p3 {
+    background-color: slateblue;
+    color: plum;
+}
+p4 {
+    background-color: royalblue;
+    color: lightpink;
+}
+p5 {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+h1 { 
+        text-align: center;
+        font-size: 22px;
+}
+p9 {
+    font-style: italic;
+}
+h3 {
+    text-align: center;
+}
+div {
+    font-size: 120%;
+}
+
+article {
+    font-size: 140%;
+}
+.d:link {
+    font-weight: bold;
+}
+.y {
+    text-transform: uppercase;
+}
+article {
+    display: flex;
+}
