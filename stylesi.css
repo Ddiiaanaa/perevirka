@@ -30,12 +30,18 @@ h1 {
 p1 {
     font-size: 120%;
 }
+div {
+    display: flex;
+    flex-direction: row;
+}
+
 @media (min-width: 992px) {
     div {
         flex: 300px;
     }
     div {
         justify-content: space-evenly;
+        flex-wrap: nowrap;
     }
 }
 @media (min-width: 768px) and (max-width: 991px ){
@@ -44,6 +50,7 @@ p1 {
     }
     div {
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 767px) {
