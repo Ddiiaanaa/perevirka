@@ -34,30 +34,13 @@ section {
     display: flex;
 }
 @media (min-width: 992px) {
-    section {
         flex-direction: row;
         flex: 450px;
         flex-wrap: nowrap;
-    }
-    article {
-        flex-direction: row;
-        flex: 450px;
-        flex-wrap: nowrap;
-    }
 }
 @media (min-width: 768px) and (max-width: 991px ){
-    section {
         flex-wrap: wrap
-    }
-    article {
-        flex-wrap: wrap
-    }
 }
 @media (max-width: 767px) {
-    section {
         flex-wrap: wrap
-    }
-    article {
-        flex-wrap: wrap
-    }
 }
