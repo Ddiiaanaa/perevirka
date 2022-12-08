@@ -1,0 +1,32 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: center;
+}
+td {
+    height: 50px;
+}
+td:nth-child(odd) {
+    background-color: lightgray;
+}
+h1 { 
+        text-align: center;
+        text-size-adjust: 22px;
+}
+h2 {
+    text-align: center;
+}
+th {
+    text-align: center;
+    background-color: green;
+    color: red;
+    font-style: bold;
+}
+p {
+    font-style: italic;
+}
+tr {
+    text-align:right;
+}
