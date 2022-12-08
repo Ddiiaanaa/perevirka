@@ -53,6 +53,7 @@ div {
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
+    background-color: blue;
 }
 article {
     font-size: 140%;
@@ -71,12 +72,12 @@ div {
 
 @media (min-width: 992px) {
     div {
-        flex: 400px;
+        flex: 300px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px ){
     div {
-        flex: 600px;
+        flex: 350px;
     }
 }
 @media (max-width: 767px) {
