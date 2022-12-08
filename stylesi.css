@@ -49,6 +49,7 @@ div {
     div {
         justify-content: space-evenly;
         flex-wrap: wrap;
+        flex: 3
     }
 }
 @media (max-width: 767px) {
