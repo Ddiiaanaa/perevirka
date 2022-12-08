@@ -45,6 +45,7 @@ div {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
+        gap: 10px 20px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px ){
