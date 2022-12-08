@@ -26,10 +26,12 @@ h2 {
 article {
     padding: 10px;
     margin: 10px;
+    display: flex;
 }
 section {
     padding: 10px;
     margin: 10px;
+    display: flex;
 }
 @media (min-width: 992px) {
     section {
