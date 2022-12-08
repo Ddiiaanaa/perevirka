@@ -49,7 +49,11 @@ h3 {
 div {
     font-size: 120%;
 }
-
+div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
 article {
     font-size: 140%;
 }
@@ -61,4 +65,10 @@ article {
 }
 section {
     display: flex;
+}
+
+@media (min-width: 992px) {
+    div {
+        flex: 1;
+    }
 }
