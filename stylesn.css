@@ -23,6 +23,10 @@ p {
 h2 {
     text-align: center;
 }
+article {
+    padding: 10px;
+    margin: 10px;
+}
 section {
     padding: 10px;
     margin: 10px;
@@ -33,14 +37,25 @@ section {
         flex: 450px;
         flex-wrap: nowrap;
     }
+    article {
+        flex-direction: row;
+        flex: 450px;
+        flex-wrap: nowrap;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px ){
     section {
-        flex-direction: column;
+        flex-wrap: wrap
+    }
+    article {
+        flex-wrap: wrap
     }
 }
 @media (max-width: 767px) {
     section {
-        flex-direction: column;
-   }
+        flex-wrap: wrap
+    }
+    article {
+        flex-wrap: wrap
+    }
 }
