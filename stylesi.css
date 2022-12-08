@@ -31,14 +31,15 @@ p1 {
     font-size: 120%;
 }
 div {
+    padding: 10px;
+    margin: 10px;
+}
+div {
     display: flex;
     flex-direction: row;
 }
 
 @media (min-width: 992px) {
-    div {
-        flex: 300px;
-    }
     div {
         justify-content: space-evenly;
         flex-wrap: nowrap;
