@@ -41,24 +41,25 @@ div {
     display: flex;
 }
 @media (min-width: 992px) {
-    th {
-        font-size: 130%;
+    div {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
     }
-    th {
-        font-size: 120%;
-    }
-
 }
 @media (min-width: 768px) and (max-width: 991px ){
     div {
-        flex: 350px;  
+        flex: 300%;  
     }
     div {
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 767px) {
     div {
         flex-direction: column;
+        justify-content: center;
+        flex: auto;
     }
 }
