@@ -59,6 +59,6 @@ article {
 .y {
     text-transform: uppercase;
 }
-article {
+section {
     display: flex;
 }
