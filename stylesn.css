@@ -23,12 +23,20 @@ p {
 h2 {
     text-align: center;
 }
+article {
+    padding: 10px;
+    margin: 10px;
+}
+section {
+    padding: 10px;
+    margin: 10px;
+}
 @media (min-width: 992px) {
     section {
         flex-direction: row;
         flex: 1;
     }
-    div {
+    article {
         flex-direction: row;
         flex: 1;
     }
@@ -37,7 +45,7 @@ h2 {
     section {
         flex-direction: column;
     }
-    div {
+    article {
         flex-direction: column;
     }
 }
@@ -45,7 +53,7 @@ h2 {
     section {
         flex-direction: column;
     }
-    div {
+    article {
         flex-direction: column;
     }
 }
